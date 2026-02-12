@@ -10,12 +10,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const openLetterBtn = document.getElementById('open-letter-btn');
     const closeBtn = document.querySelector('.close-btn');
 
-    // GIF Arrays - make sure these files exist in your assets folder!
+    // GIF Arrays - make sure these files exist in your ASSETS folder!
     const noGifs = [
-        'assets/shaking-cute.gif',
-        'assets/sad-nailong.gif',
-        'assets/dog-shaking.gif',
-        'assets/cute-blinking.gif'
+        'ASSETS/shaking-cute.gif',
+        'ASSETS/sad-nailong.gif',
+        'ASSETS/dog-shaking.gif',
+        'ASSETS/cute-blinking.gif'
     ];
 
     let noClickCount = 0;
@@ -67,3 +67,4 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
